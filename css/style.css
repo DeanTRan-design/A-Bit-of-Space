@@ -29,17 +29,6 @@ h1 {
   color: #49382E;
 }
 
-.section4 {
-  display: block;
-  text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 300px;
-  position: relative;
-  height: 100vh;
-  height: 1080px;
-}
-
 h2 {
   color: #49382E;
   font-family: "Jersey 25", sans-serif;
@@ -272,7 +261,7 @@ p {
 
     .decor1 {
       display: flex;
-      position: absolute;
+      position: relative;
       padding-left: 20px;
       padding-bottom: 70px;
     }
@@ -310,6 +299,17 @@ p {
     }
 
     /* ==========SECTION 4 STYLING============= */
+      .section4 {
+      display: block;
+      text-align: center;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 300px;
+      position: relative;
+      height: 100vh;
+      height: 1080px;
+    }
+    
     .chat-icon {
       position: relative;
       text-align: center;
@@ -425,8 +425,7 @@ p {
   font-style: normal;
 }
 
-.button-group{
-  
+.button-group{  
   position: relative;
 }
 
@@ -466,7 +465,9 @@ p {
 
 /* ===== MOBILE: Media queries for small mobile resolution. ===== */
 @media only screen and (max-width: 640px) { 
-   
+   .section2 {
+    padding: 20px;
+   }
 }
 
 

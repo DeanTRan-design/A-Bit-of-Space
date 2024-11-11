@@ -7,7 +7,7 @@ for (let i = 0; i < 6; i++) {
    circle.classList.add('circle');
 
     // Random size, position, and animation delay
-    const size = Math.random() * 500 + 4; 
+    const size = Math.random() * 500 + 40; 
     circle.style.width = `${size}px`;
     circle.style.height = `${size}px`;
     circle.style.top = `${Math.random() * 50}vh`;
@@ -26,6 +26,7 @@ const closeButton = drawer.querySelector('sl-button[variant="primary"]');
 openButton.addEventListener('click', () => drawer.show());
 })();
 
+// JavaScript for meditation text guide
 (function() {
 const words = ["Let try this breathing technique", "Breathing into your nose 1, 2, 3, 4 and hold", "Breathing out of your nose 1, 2, 3, 4 and hold", "Again", "Breathing into your nose 1, 2, 3, 4 and hold", "Breathing out of your nose 1, 2, 3, 4 and hold", "Well done!", "Don't forget to practice everyday", "Especially when you feel emotionally challenged", "Let's try again"];
 let index = 0;
